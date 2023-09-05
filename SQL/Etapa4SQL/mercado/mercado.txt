@@ -1,0 +1,28 @@
+CREATE TABLE mercado (
+
+    nome VARCHAR(255),
+    preco FLOAT,
+    qta_estoque INT,
+    marca VARCHAR(255),
+    SAC VARCHAR(255),
+    nascionalidade VARCHAR(255)
+);
+
+INSERT INTO mercado(nome, preco, qta_estoque, marca, SAC, nascionalidade) VALUES
+('Pao de Queijo', 22, 10, 'Sadia', 'Nao sei o que colocar aqui', 'Brasileiro');
+
+INSERT INTO mercado(nome, preco, qta_estoque,
+marca, SAC, nascionalidade) VALUES
+('Pao de Mel', 222,10, 'Caseiro', 'Nao sei o que colocar aqui', 'Brasileiro');
+
+INSERT INTO mercado(nome, preco, qta_estoque,
+marca, SAC, nascionalidade) VALUES
+('Pao de Forma', 10, 12,'Caseirinho', 'Nao sei o que colocar aqui', 'Brasileiro');
+
+INSERT INTO mercado(nome, preco, qta_estoque,
+marca, SAC, nascionalidade) VALUES
+('Mussarela', 220, 33,'Perdigao', 'Nao sei o que colocar aqui', 'Brasileiro');
+
+INSERT INTO mercado(nome, preco, qta_estoque,
+marca, SAC, nascionalidade) VALUES
+('Mortadela', 22, 28,'Sadia', 'Nao sei o que colocar aqui', 'Brasileiro');

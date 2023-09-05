@@ -1,0 +1,55 @@
+CREATE TABLE biblioteca (
+	id INT PRIMARY KEY,
+	nome_autor VARCHAR(255),
+  	data_nascimento DATE,
+  	email VARCHAR(500),
+	nascionalidade VARCHAR(500)
+  
+);
+
+CREATE TABLE livros (
+	id INT PRIMARY KEY,
+	titulo VARCHAR(255),
+  	paginas INT,
+	editora VARCHAR(500),
+	acabamento VARCHAR(500),
+	user_id INT,
+	FOREIGN KEY (user_id) REFERENCES produtora(id)
+  
+);
+
+
+INSERT INTO biblioteca(id, nome_autor, data_nascimento, email, nascionalidade) 
+VALUES (1,'leon', '2023-01-01', 'leon@gmail.com' ,'brasileiro');
+ 
+ INSERT INTO biblioteca(id, nome_autor, data_nascimento, email, nascionalidade)
+  VALUES (2, 'jhon', '2023-02-02', 'jhon@gmail.com','brasileiro');
+ 
+ INSERT INTO biblioteca(id, nome_autor, data_nascimento, email, nascionalidade) 
+ VALUES (3, 'pedro', '2023-03-03', 'pedro@gmail.com','brasileiro');
+ 
+ INSERT INTO biblioteca(id, nome_autor, data_nascimento, email, nascionalidade) 
+ VALUES (4, 'Lucas', '2023-04-04', 'lucas@gmail.com','brasileiro');
+
+  INSERT INTO biblioteca(id, nome_autor, data_nascimento, email, nascionalidade) 
+ VALUES (5, 'Fabio', '2023-04-04', 'fabio@gmail.com','brasileiro');
+ 
+
+
+INSERT INTO livros(id, user_id, titulo, paginas, editora, acabamento) 
+ VALUES (1, 1, 'pinoquio', 10,'brasil-para-todos', 'Nao Sei o que Colocar aqui');
+
+INSERT INTO livros(id, user_id, titulo, paginas, editora, acabamento) 
+ VALUES (2, 1, '3porquinhos', 100,'brasil-para-todos', 'Nao Sei o que Colocar aqui');
+
+ INSERT INTO livros(id, user_id, titulo, paginas, editora, acabamento) 
+ VALUES (3, 2, 'chapeuzinhovermelho', 21,'brasil-para-todos', 'Nao Sei o que Colocar aqui');
+
+ INSERT INTO livros(id, user_id, titulo, paginas, editora, acabamento) 
+ VALUES (4, 3, 'biblia', 100,'gospel', 'Nao Sei o que Colocar aqui');
+
+ INSERT INTO livros(id, user_id, titulo, paginas, editora, acabamento) 
+ VALUES (5, 2, 'monica', 15,'brasil-para-todos', 'Nao Sei o que Colocar aqui');
+
+ INSERT INTO livros(id, user_id, titulo, paginas, editora, acabamento) 
+ VALUES (6, 1, 'cebolinha', 10,'brasil-para-todos', 'Nao Sei o que Colocar aqui');

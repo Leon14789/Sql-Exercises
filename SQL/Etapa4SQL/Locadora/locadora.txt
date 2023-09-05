@@ -1,0 +1,24 @@
+CREATE TABLE locadora (
+
+    placa VARCHAR(255),
+    ano DATE,
+    Modelo VARCHAR(255),
+    Montadora VARCHAR(255),
+    logo VARCHAR(255),
+    site_montadora VARCHAR(255)
+);
+
+INSERT INTO locadora(placa, ano, Modelo, Montadora, logo, site_montadora) VALUES
+('123sa', '2023-01-01', 'Gol', 'Fiat', 'imagem', 'siteDaMontadora.com');
+
+INSERT INTO locadora(placa, ano, Modelo, Montadora, logo, site_montadora) VALUES
+('123sa', '2023-01-01', 'Onix', 'Fiat', 'imagem', 'siteDaMontadora.com');
+
+INSERT INTO locadora(placa, ano, Modelo, Montadora, logo, site_montadora) VALUES
+('123sa', '2023-01-01', 'Fusca', 'Fiat', 'imagem', 'siteDaMontadora.com');
+
+INSERT INTO locadora(placa, ano, Modelo, Montadora, logo, site_montadora) VALUES
+('123sa', '2023-01-01', 'Prisma', 'Fiat', 'imagem', 'siteDaMontadora.com');
+
+INSERT INTO locadora(placa, ano, Modelo, Montadora, logo, site_montadora) VALUES
+('123sa', '2023-01-01', 'Celta', 'Fiat', 'imagem', 'siteDaMontadora.com');
