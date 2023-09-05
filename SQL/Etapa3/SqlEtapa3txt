@@ -1,0 +1,57 @@
+CREATE TABLE alunos (
+  	RA INT,
+	name VARCHAR(255),
+  	data_nascimento DATE,
+  	email VARCHAR(500)
+  
+);
+
+
+INSERT INTO alunos(RA, name, data_nascimento, email) VALUES (123, 'leon', '2023-01-01', 
+ 'leon@gmail.com');
+ 
+ INSERT INTO alunos(RA, name, data_nascimento, email) VALUES (456, 'jhon', '2023-02-02', 
+ 'jhon@gmail.com');
+ 
+ INSERT INTO alunos(RA, name, data_nascimento, email) VALUES (789, 'pedro', '2023-03-03', 
+ 'pedro@gmail.com');
+ 
+ INSERT INTO alunos(RA, name, data_nascimento, email) VALUES (101112, 'Lucas', '2023-04-04', 
+ 'lucas@gmail.com');
+ 
+ INSERT INTO alunos(RA, name, data_nascimento, email) VALUES (131415, 'Fabio', '2023-05-05', 
+ 'fabio@gmail.com');
+
+CREATE TABLE colaboradores (
+  	cod_iden INT,
+	name VARCHAR(255),
+  	cpf VARCHAR(20),
+  	cargo VARCHAR(500),
+  	salario FLOAT(100000)
+  
+);
+
+
+INSERT INTO colaboradores(cod_iden, name, cpf, cargo, salario) 
+VALUES (123, 'Leon', '56264310808', 
+ 'escravizado-Estagiario', '56.2');
+ 
+ INSERT INTO colaboradores(cod_iden, name, cpf, cargo, salario) 
+VALUES (123, 'Joao', '12425110820', 
+ 'Pleno', '100.2');
+ 
+ INSERT INTO colaboradores(cod_iden, name, cpf, cargo, salario) 
+VALUES (123, 'THiago', '12457878965', 
+ 'Senior', '99999');
+ 
+ INSERT INTO colaboradores(cod_iden, name, cpf, cargo, salario) 
+VALUES (123, 'Fabio', '85647810852', 
+ 'Ninguem-Sabe', '6.2');
+ 
+ INSERT INTO colaboradores(cod_iden, name, cpf, cargo, salario) 
+VALUES (123, 'Lucas', '12458796320', 
+ 'Junior', '5.2');
+
+
+SELECT * FROM alunos;
+SELECT * FROM colaboradores;
