@@ -57,7 +57,7 @@ Insira os dados necessários para compor a base de dados criada;
 
 [Link Para Verificar o SQL da VIDEOTECA](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/videoteca)
 
-[Link Para Verificar o SQL da PROUDORA-DE-GAMES](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/produtora)
+[Link Para Verificar o SQL da PROUDORA-DE-GAMES](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/Produtora)
 
 [Link Para Verificar o SQL da SUPOER-MERCADO](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/mercado)
 
