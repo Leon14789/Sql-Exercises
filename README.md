@@ -49,17 +49,17 @@ Após a criação dos MER, crie as bases de dados de cada um dos exercícios dad
 
 Insira os dados necessários para compor a base de dados criada;
 
-[Link Para Verificar o SQL da BIBLIOTECA](https://www.google.com)
+[Link Para Verificar o SQL da BIBLIOTECA](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/Biblioteca)
 
-[Link Para Verificar o SQL da LOCADORA](https://www.google.com)
+[Link Para Verificar o SQL da LOCADORA](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/Locadora)
 
-[Link Para Verificar o SQL da PETSHOOP](https://www.google.com)
+[Link Para Verificar o SQL da PETSHOOP](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/PetShop)
 
-[Link Para Verificar o SQL da VIDEOTECA](https://www.google.com)
+[Link Para Verificar o SQL da VIDEOTECA](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/videoteca)
 
-[Link Para Verificar o SQL da PROUDORA-DE-GAMES](https://www.google.com)
+[Link Para Verificar o SQL da PROUDORA-DE-GAMES](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/produtora)
 
-[Link Para Verificar o SQL da SUPOER-MERCADO](https://www.google.com)
+[Link Para Verificar o SQL da SUPOER-MERCADO](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa4SQL/mercado)
 
 <h1> --------ETAPA 4--------------- </h1>
 
@@ -69,12 +69,14 @@ Insira os dados necessários para compor a base de dados criada;
 
 2 — Crie um banco de dados para armazenar dados de colaboradores de uma empresa. Um colaborador deve ter um código de identificação, nome, CPF, cargo e salário; <br/>
 
+Insira 5 registros em cada tabela; <br/>
+
 [Link Para Verificar o SQL](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa3)
 
-[Link Para Verificar o SQL](https://www.google.com](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa3)
 
 
-Insira 5 registros em cada tabela;
+
+
 
 
    
