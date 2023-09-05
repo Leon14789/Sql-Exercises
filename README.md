@@ -69,7 +69,7 @@ Insira os dados necessários para compor a base de dados criada;
 
 2 — Crie um banco de dados para armazenar dados de colaboradores de uma empresa. Um colaborador deve ter um código de identificação, nome, CPF, cargo e salário;
 
-[Link Para Verificar o SQL]([https://www.google.com](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa3)https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa3)
+[Link Para Verificar o SQL](https://github.com/Leon14789/Sql-Exercises/tree/master/SQL/Etapa3)
 
 Insira 5 registros em cada tabela;
 
